@@ -1,0 +1,247 @@
+/*login */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium';
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.login-container {
+    max-width: 900px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    background-color: rgba(162, 186, 185, 0.998);
+    padding-left: 192px;
+    padding-right: 192px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(237, 235, 235, 0.1);
+}
+.input-container input {
+    width: 100%; /* Set the width to 100% to make the input fill the container */
+    padding: 10px; /* Adjust the padding as needed */
+    border: 1px solid #c84ff443;
+    border-radius: 5px;
+    border-color: #f8f8f8f9;
+    text-align: center;
+}
+
+
+/* Dashboard*/
+.body {
+    text-align: center;
+}
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; 
+}
+.topbar {
+    background-image: -webkit-linear-gradient(right, rgba(142, 208, 237, 0.719),rgba(235, 167, 217, 0.567));
+    color: #0b0b0b;
+    padding: 10px 16px;
+    width: 85%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 225px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-container {
+    max-width: 900px; 
+    margin: 0 auto;
+    background-color: #efc8edd4;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(166, 166, 166, 0.945);
+} 
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family:monospace;
+    font-size:60px;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.input-container i {
+    position: absolute;
+    left: 10px;
+    color: #f5d6f5;
+}
+.input-container input {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #f8e4ff;
+    border-radius: 5px;
+    border-color: #f8eafef9;
+    text-align: center; 
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.button-login  {
+    Margin:auto;
+    color:#060606;
+    background-color:#bfe7f6cb;
+    border-color: #9ff2ff;
+    width: calc(109%);
+    padding: 10px;
+}
+.body {
+    text-align: center;
+}
+h1 {
+    text-align: center; /* Center the text */
+    font-family: 'Lucida Sans Unicode';
+    position:absolute; /* Position the element absolutely */
+    top: 20px; /* Align to the top */
+    left: 41%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 200%; /* Full width */
+    margin-top: 0px; /* Optional: Add some top margin */
+    color: #fbfbfb;
+    font-family: 'Lucida Grande';
+    font-size: 40px;
+}
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust the height as needed */
+    flex-direction: column;
+
+}
+.dashboard-container h2 {
+    text-align: center;
+
+}
+.sidebar-display{
+    background-color: #9ff2ff;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    z-index: 1;
+}
+.sidebar-button:hover {
+    background-image: -webkit-linear-gradient(right, rgba(103, 9, 144, 0.473),rgba(246, 200, 234, 0.842));
+}
+.sidebar-display ul li a{
+    display: flex;
+    padding: 15px 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #7b7b7b;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    border-top: 1px solid #5d5f5f7c;
+}
+.main-body {
+    position: relative;
+    top: 100px;
+    padding: 200px;
+    margin-left: 399px; /* h1 welcome to the cyberpunk world*/
+    text-align: center;
+}
+.footer h5 {
+    margin: 0;
+    margin-right: 20px;
+    }
+.topbar h1 {
+    margin: 0;
+    margin-left: 160px; /* My dashboard*/
+    margin-bottom: 10px;
+    font-style:initial;
+    color:#080808
+}
+.out-button {
+    position: absolute; /* Position the button */
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 1002; /* Ensure the button is above the topbar */
+    color: #121111;
+    background-color: #97e6dfb7;
+    border-color: #b0ccf5;
+    width: 102px; /* Set a fixed width */
+    padding: 10px;
+    border-radius: 1px;
+    margin-right: 1000px; /* logout button*/
+}
+.dashboard-container h2 {
+text-align: center;
+}
+.sidebar-display{
+    background-image: -webkit-linear-gradient(right, rgba(232, 191, 250, 0.473),rgba(246, 200, 234, 0.842));
+    color: #030303;
+    font-style:inherit;
+    font-family:'Arial Narrow Bold', sans-serif; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    z-index: 1;
+}
+.sidebar-display ul li a{
+    display: flex;
+    padding: 15px 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #818181;
+    color: #040404;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-body {
+   
+    margin-left: 399px; /* h1 welcome to --*/
+    padding-left: 90px;
+    text-align:center;
+}
+.main-body p{  /* paragraph */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:9px;
+    padding-top: 200px;
+    color: rgb(65, 65, 65);
+    font-size: 19px;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer {
+    background-image: -webkit-linear-gradient(right, rgba(37, 170, 226, 0.346),rgba(246, 200, 234, 0.56));
+    color: #010101;
+    padding: 10px 20px;
+    width: 85%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 225px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h5 {
+    margin: 0;
+    margin-right: 20px;
+}

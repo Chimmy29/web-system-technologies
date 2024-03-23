@@ -1,10 +1,10 @@
 {
-	"name": "ansi-regex",
-	"version": "6.0.1",
-	"description": "Regular expression for matching ANSI escape codes",
+	"name": "ansi-styles",
+	"version": "6.2.1",
+	"description": "ANSI escape codes for styling strings in the terminal",
 	"license": "MIT",
-	"repository": "chalk/ansi-regex",
-	"funding": "https://github.com/chalk/ansi-regex?sponsor=1",
+	"repository": "chalk/ansi-styles",
+	"funding": "https://github.com/chalk/ansi-styles?sponsor=1",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -17,7 +17,7 @@
 	},
 	"scripts": {
 		"test": "xo && ava && tsd",
-		"view-supported": "node fixtures/view-codes.js"
+		"screenshot": "svg-term --command='node screenshot' --out=screenshot.svg --padding=3 --width=55 --height=3 --at=1000 --no-cursor"
 	},
 	"files": [
 		"index.js",
@@ -40,19 +40,15 @@
 		"256",
 		"shell",
 		"xterm",
+		"log",
+		"logging",
 		"command-line",
-		"text",
-		"regex",
-		"regexp",
-		"re",
-		"match",
-		"test",
-		"find",
-		"pattern"
+		"text"
 	],
 	"devDependencies": {
 		"ava": "^3.15.0",
-		"tsd": "^0.14.0",
-		"xo": "^0.38.2"
+		"svg-term-cli": "^2.1.1",
+		"tsd": "^0.19.0",
+		"xo": "^0.47.0"
 	}
 }
